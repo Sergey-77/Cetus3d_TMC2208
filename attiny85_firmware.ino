@@ -14,7 +14,7 @@ void setDriversInternal_reff(int current_mA){
   driver.mstep_reg_select(true);
   driver.microsteps(32);
   driver.I_scale_analog(false); // Use internal voltage reference
-  driver.rms_current(current_mA);// Set driver current 200mA
+  driver.rms_current(current_mA);// Set driver current
   driver.toff(5);               // Enable driver in software
   driver.blank_time(24);
   driver.intpol(1);
