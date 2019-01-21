@@ -1,2 +1,3 @@
 # Cetus3d_TMC2208
 This is TMC2208 stepstick drivers extension board for Cetus3d mk3 printer.
+Original stepper drivers in Cetus3d printer are setup for 32 microsteps, so I added Attiny85 to configure trinamic drivers for 32 microsteps. By default current set by adjusting referense voltage with the potentiometer. It also can be set by Attiny's firmware (same current for all axis). My printer has stepper motors with 31 ohms coil resistance, so current has to be set low. Can't find any information about cetus motors. I think maximum current should be nomore than 400mA. Reference voltage on my printer set to: x 0.15v, y 0.1v, z 0.2v.
