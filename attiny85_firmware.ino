@@ -50,7 +50,7 @@ void setDriversExternal_ref(){
   driver.pwm_autograd(1);
   driver.pwm_autoscale(1);
   driver.pwm_freq(0);
-  driver.pwm_reg(3);
+  driver.pwm_reg(5);
   driver.pwm_grad(14);
   driver.pwm_ofs(36);
   driver.en_spreadCycle(false);
