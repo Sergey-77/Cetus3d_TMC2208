@@ -65,8 +65,8 @@ void setup() {
   digitalWrite(EN_PIN, HIGH);   // Disable driver in hardware
   TMC2208Stepper driver = TMC2208Stepper(rxPin, txPin_x, false);  // Create driver and use Software Serial for communication
   driver.beginSerial(9600);
-  //setDriversInternal_ref(100, &driver);
-  setDriversExternal_ref(&driver);
+  //setDriversInternal_ref(100, &driver);     //Stepper current can be set by Attiny 
+  setDriversExternal_ref(&driver);            //or with driver potentiometer
   driver = TMC2208Stepper(rxPin, txPin_y, false);
   driver.beginSerial(9600);
   //setDriversInternal_ref(90, &driver);
