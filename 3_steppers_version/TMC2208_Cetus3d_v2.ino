@@ -38,8 +38,8 @@ void setDriversExternal_ref(TMC2208Stepper *driver){
   driver->pdn_disable(true);     // Use PDN/UART pin for communication
   driver->mstep_reg_select(true);
   driver->microsteps(32);
-  //driver->IHOLD_IRUN(0x1F10);
-  driver->IHOLD_IRUN(0x1008);
+  //driver->IHOLD_IRUN(0x1F10); // Irms = (Vref * 1.768A) / 2.5V = Vref * 0.707
+  driver->IHOLD_IRUN(0x1008);   // Irms = Vref * 0.37565
   driver->I_scale_analog(true);
   driver->internal_Rsense(false);
   driver->toff(3);               // Enable driver in software
