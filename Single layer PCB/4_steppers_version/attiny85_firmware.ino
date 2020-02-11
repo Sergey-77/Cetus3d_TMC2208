@@ -69,7 +69,7 @@ void setup() {
 void loop() {
  bool drivers_initialized;
  delay(500);
- if(digitalRead(input_enable_motors &! drivers_initialized )){
+ if(digitalRead(input_enable_motors) &! drivers_initialized ){
   setDriversExternal_ref();
   //setDriversInternal_ref(200);// Set driver current 200mA
   digitalWrite(EN_PIN, LOW);    // Enable driver in hardware
