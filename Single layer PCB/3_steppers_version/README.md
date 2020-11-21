@@ -1,1 +1,3 @@
-![1](/Single layer PCB/3_steppers_version/1.jpg)
+![1](./1.JPG)
+![2](./2.JPG)
+![3](./3.JPG)
