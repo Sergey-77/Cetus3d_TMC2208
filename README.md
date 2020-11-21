@@ -7,3 +7,10 @@ Original stepper drivers in Cetus3d printer are set for 32 microsteps, so I adde
 
 ![Extension board](/5.jpg)
 ![Extension board](/3.jpg)
+![Extension board](/1.jpg)
+![Extension board](/2.jpg)
+![Extension board](/4.jpg)
+![Extension board](/6.jpg)
+![Extension board](/7.jpg)
+![Extension board](/8.jpg)
+![Extension board](/9.jpg)
